@@ -1,6 +1,6 @@
 package com.company;
 class Main {
-    static void vaTest(int ... v){
+    static void vaTest(int ... v){ \\ метод с переменным числом аргументов
         System.out.println("Количество аргументов: "+v.length);
         System.out.println("Содержимое: ");
         for (int i=0;i<v.length;i++) System.out.println("arg "+i+": "+v[i]);
